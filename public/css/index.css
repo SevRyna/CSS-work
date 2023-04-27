@@ -1,77 +1,50 @@
  /* Завдання №1. Змініть колір тексту на червоний та фон на жовтий,
  коли користувач наведе курсор миші на кнопку*/
- .lesson-four-task-one {
+ .lesson-four-task-one .btn:hover {
      color: red;
- }
-
- .card:hover {
-     background: yellow;
+     background-color: yellow;
  }
 
  /* Завдання №2. Змініть фон заголовка на зелений, коли користувач наведе курсор миші на посилання:*/
- .lesson-four-task-two link:active {
+ .lesson-four-task-two .a[href],
+ h1:hover {
      color: green;
  }
 
- .card:hover {
-     background: green;
- }
-
  /*Завдання №3. Змініть колір тексту відвіданого посилання на жовтий:*/
- #lesson-four-task-three {
-     color: yellow;
- }
-
- .link:visited {
+ .lesson-four-task-three .link:visited {
      color: yellow;
  }
 
  /* Завдання №4. Змініть колір тексту посилання,
  яке знаходиться в блоку з ідентифікатором "sidebar",
  на червоний: */
- #lesson-four-task-four {
-     color: red;
- }
-
- .link:link {
+ .lesson-four-task-four #sidebar:link {
      color: red;
  }
 
  /*    ЗаЗавдання №5. Змініть колір фону кнопки на синій, коли кнопка активна*/
- #lesson-four-task-five {
-     color: blue;
- }
-
- button:active {
-     color: blue;
+ .lesson-four-task-five .btn:active {
+     background-color: blue;
  }
 
  /*Завдання №6. Змініть колір тексту та фон кнопки, коли вона отримує фокус, на помаранчевий:*/
- #lesson-four-task-six {
-     color: orange;
- }
-
- button:focus {
+ .lesson-four-task-six .btn:focus {
+     background: orange;
      color: orange;
  }
 
  /*Завдання №7. Змініть колір тексту та фон елемента,
  який вказаний в URL як фрагмент, на зелений*/
- #lesson-four-task-seven {
-     color: green;
- }
-
- #target:target {
+ .lesson-four-task-seven #target:target {
      color: green;
  }
 
  /*Завдання №8. Змініть колір тексту на білий та фон елемента на синій при натискані відповідного чекбоксу*/
- .lesson-four-task-eight {
-     background: blue;
- }
-
+ .lesson-four-task-eight,
  .input checkbox :checked {
-     background: white;
+     background: blue;
+     color: white;
  }
 
  /*Завдання №9. Змінити колір тексту на синій для усіх елементів на сторінці, які написані українською мовою*/
