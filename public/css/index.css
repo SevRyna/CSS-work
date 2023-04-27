@@ -80,32 +80,32 @@
  }
 
  /*Завдання №10. Змінити колір тексту на червоний та фон на жовтий елементів форми, які включені та доступні для введення.*/
- .lesson-four-task-ten :enabled {
+ .lesson-four-task-ten input:enabled {
      background-color: yellow;
      color: red;
  }
 
  /*Завдання №11. При використанні селектора :disabled змінити фоновий колір на жовтий в полях введення, які є неактивними*/
- .lesson-four-task-eleven :disabled {
+ .lesson-four-task-eleven input:disabled {
      background-color: yellow;
  }
 
  /*Завдання №12. Встановіть жовтий фоновий колір для елементів <input>, що без атрибута readonly.*/
- .lesson-four-task-twelve :read-write {
+ .lesson-four-task-twelve input:read-write {
      background-color: yellow;
  }
 
  /*Завдання №13. Встановіть жовтий фоновий колір для інпуту з атрибутом readonly.*/
- .lesson-four-task-thirteen :read-only {
+ .lesson-four-task-thirteen input:read-only {
      background-color: yellow;
  }
 
  /*Завдання №14. Зробіть поле вводу зеленим, коли введене значення коректне, і червоним - якщо ні.*/
- .lesson-four-task-fourteen :valid {
+ .lesson-four-task-fourteen input:valid {
      background-color: green;
  }
 
- .lesson-four-task-fourteen :invalid {
+ .lesson-four-task-fourteen input:invalid {
      background-color: red;
  }
 
